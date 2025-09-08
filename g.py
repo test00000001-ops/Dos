@@ -9,8 +9,8 @@ from telegram.ext import Updater, CommandHandler, CallbackContext
 from telegram import Update
 
 # ====== CONFIGURATION ======
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-OWNER_ID = 123456789  # Replace with your Telegram user ID
+TOKEN = "8369306411:AAFwWzPd9-Z9fA9XmCo7qnncgsntXqLmiCw"
+OWNER_ID = 1208992069  # Replace with your Telegram user ID
 DATA_FILE = "data.json"
 ATTACK_COST = 10      # ₹ per attack
 
@@ -241,4 +241,5 @@ def main():
     updater.idle()
 
 if __name__ == "__main__":
+
     main()
